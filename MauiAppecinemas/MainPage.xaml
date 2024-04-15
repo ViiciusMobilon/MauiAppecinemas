@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppecinemas.MainPage">
+    <ContentPage.Resources>
+        <Style x:Key="estilocomum" TargetType="Button" >
+            <Setter Property="BackgroundColor" Value="Black"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="BorderColor" Value="White"/>
+            <Setter Property="BorderWidth" Value="1"/>
+        </Style>
+
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid  RowDefinitions="*,*,*,*,*,*,*,*"
+          ColumnDefinitions="*,*">
+            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" x:Name="Aventura" HorizontalTextAlignment="Start"
+          VerticalTextAlignment="Start" TextColor="White" FontSize="60"/>
+            <Button Grid.Row="0" Grid.Column="0" Style="{StaticResource estilocomum}" x:Name="aventura"
+                    Text="aventura" Clicked="aventura_Clicked" />
+
+            <Button Grid.Row="1" Grid.Column="0" Style="{StaticResource estilocomum}" x:Name="Comedia"
+           Text="Comédia" Clicked="Comedia_Clicked" />
+
+            <Button Grid.Row="2" Grid.Column="0" Style="{StaticResource estilocomum}" x:Name="drama"
+                    Text="Drama" Clicked="drama_Clicked" />
+
+            <Button Grid.Row="3" Grid.Column="0" Style="{StaticResource estilocomum}" x:Name="acao"
+                    Text="Ação" Clicked="acao_Clicked" />
+            <!--segunda coluna-->
+            <Button Grid.Row="0" Grid.Column="1" Style="{StaticResource estilocomum}" x:Name="animacao"
+                    Text="Animação" Clicked="animacao_Clicked" />
+
+            <Button Grid.Row="1" Grid.Column="1" Style="{StaticResource estilocomum}" x:Name="terror"
+                   Text="Terror" Clicked="terror_Clicked" />
+
+            <Button Grid.Row="2" Grid.Column="1" Style="{StaticResource estilocomum}" x:Name="documentario"
+                   Text="Documentario" Clicked="documentario_Clicked" />
+
+            <Button Grid.Row="3" Grid.Column="1" Style="{StaticResource estilocomum}" x:Name="guerra"
+                   Text="Guerra" Clicked="guerra_Clicked" />
+
+
+        </Grid>
+
+    </ContentPage.Content>
+
+
+</ContentPage>
