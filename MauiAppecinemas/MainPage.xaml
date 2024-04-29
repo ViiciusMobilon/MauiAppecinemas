@@ -1,21 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppecinemas.MainPage">
+             x:Class="MauiAppecinemas.MainPage"
+             BackgroundColor="Black">
     <ContentPage.Resources>
         <Style x:Key="estilocomum" TargetType="Button" >
             <Setter Property="BackgroundColor" Value="Black"/>
             <Setter Property="TextColor" Value="White"/>
             <Setter Property="BorderColor" Value="White"/>
-            <Setter Property="BorderWidth" Value="1"/>
+            <Setter Property="BorderWidth" Value="3"/>
+            <Setter Property="FontSize" Value="60"/>
+
+
         </Style>
 
     </ContentPage.Resources>
     <ContentPage.Content>
-        <Grid  RowDefinitions="*,*,*,*,*,*,*,*"
-          ColumnDefinitions="*,*">
-            <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" x:Name="Aventura" HorizontalTextAlignment="Start"
-          VerticalTextAlignment="Start" TextColor="White" FontSize="60"/>
+        <Grid  RowDefinitions="*,*,*,*"
+          ColumnDefinitions="*,*"
+               RowSpacing="0.1">
+            
+            <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" x:Name="Aventura" HorizontalTextAlignment="Start"
+          VerticalTextAlignment="Start" TextColor="White" />
             <Button Grid.Row="0" Grid.Column="0" Style="{StaticResource estilocomum}" x:Name="aventura"
                     Text="aventura" Clicked="aventura_Clicked" />
 

@@ -11,14 +11,13 @@
 
         private void OnCounterClicked(object sender, EventArgs e)
         {
-            
+
         }
 
-       
+
 
         private void aventura_Clicked(object sender, EventArgs e)
         {
-
         }
 
         private void Comedia_Clicked(object sender, EventArgs e)
@@ -31,7 +30,7 @@
 
         }
 
-        private void ação_Clicked(object sender, EventArgs e)
+        private void acao_Clicked(object sender, EventArgs e)
         {
 
         }
@@ -41,7 +40,7 @@
 
         }
 
-        private void terro_Clicked(object sender, EventArgs e)
+        private void terror_Clicked(object sender, EventArgs e)
         {
 
         }
@@ -55,16 +54,6 @@
         {
 
         }
-
-        private void acao_Clicked(object sender, EventArgs e)
-        {
-
-        }
-
-        private void terror_Clicked(object sender, EventArgs e)
-        {
-
-        }
     }
-
 }
+
