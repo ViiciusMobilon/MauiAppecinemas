@@ -1,28 +1,28 @@
-﻿namespace MauiAppecinemas
+﻿using MauiAppecinemas.Categorias.Aventura;
+
+namespace MauiAppecinemas
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+
 
         public MainPage()
         {
             InitializeComponent();
         }
 
-        private void OnCounterClicked(object sender, EventArgs e)
-        {
-
-        }
+       
 
 
 
         private void aventura_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new Mainaventura());
         }
 
         private void Comedia_Clicked(object sender, EventArgs e)
         {
-
+            
         }
 
         private void drama_Clicked(object sender, EventArgs e)

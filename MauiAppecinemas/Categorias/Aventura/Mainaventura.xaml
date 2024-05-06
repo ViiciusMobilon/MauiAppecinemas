@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppecinemas.Categorias.Aventura.Mainaventura"
+             Title="Mainaventura">
+    <ContentPage.Resources>
+        <Style x:Key="estilocomum" TargetType="ImageButton" >
+            <Setter Property="BackgroundColor" Value="Black"/>
+            <Setter Property="BorderColor" Value="Black"/>
+            <Setter Property="BorderWidth" Value="9"/>
+          
+
+
+        </Style>
+
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,*"
+              ColumnDefinitions="*,*"
+              RowSpacing="0.1">
+            <Label Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="4" x:Name="aventura" HorizontalTextAlignment="Start"
+                   VerticalTextAlignment="Start" TextColor="White">
+                
+            </Label>
+            <StackLayout HorizontalOptions="Center"
+                         VerticalOptions="Center">
+                <ImageButton Source="velozes.jpg" Style="{StaticResource estilocomum}" Clicked="ImageButton_Clicked"/>
+
+                <ImageButton Source="velozes.jpg" Style="{StaticResource estilocomum}" Clicked="ImageButton_Clicked"/>
+            </StackLayout>            
+        </Grid>
+              
+              
+        
+    </ContentPage.Content>
+    
+</ContentPage>
