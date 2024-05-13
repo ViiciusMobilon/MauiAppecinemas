@@ -47,7 +47,6 @@
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
-		<MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
 
 		<!-- Custom Fonts -->
 		<MauiFont Include="Resources\Fonts\*" />
@@ -57,7 +56,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\ultimo.jpg" />
 	  <None Remove="Resources\Images\velozes e furiosos.jpg" />
+	  <None Remove="Resources\Images\violenta.jpg" />
+	  <None Remove="Resources\raw\images.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiAsset Include="Resources\Images\acao\images.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -67,9 +73,43 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Categorias\acao\acao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\animacao\animacao.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Categorias\Aventura\Mainaventura.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Categorias\comedia\comedia.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\documentario\documentario.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\drama\drama.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\terror\terror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiImage Include="Resources\Images\acao\images.jpg" />
+	  <MauiImage Include="Resources\Images\acao\ultimo.jpg" />
+	  <MauiImage Include="Resources\Images\acao\velozes.jpg" />
+	  <MauiImage Include="Resources\Images\acao\violenta.jpg" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Resources\Images\animacao\" />
+	  <Folder Include="Resources\Images\aventura\" />
+	  <Folder Include="Resources\Images\comedia\" />
+	  <Folder Include="Resources\Images\documentario\" />
+	  <Folder Include="Resources\Images\drama\" />
+	  <Folder Include="Resources\Images\terror\" />
 	</ItemGroup>
 
 </Project>

@@ -6,9 +6,28 @@ public partial class Mainaventura : ContentPage
 	{
 		InitializeComponent();
 	}
-
-    private void ImageButton_Clicked(object sender, EventArgs e)
+    private void Arranhaceu_Clicked(object sender, EventArgs e)
     {
 
+    }
+
+    private void velozes_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void ultimo_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void violenta_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void voltar_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new MainPage());
     }
 }
