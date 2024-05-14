@@ -3,10 +3,55 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppecinemas.Categorias.animacao"
              Title="animacao">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+    <ContentPage.Resources>
+        <Style x:Key="estilocomum" TargetType="ImageButton" >
+            <Setter Property="Background" Value="Black"/>
+            <Setter Property="BorderColor" Value="White"/>
+            <Setter Property="CornerRadius" Value="20"/>
+            <Setter Property="BorderWidth" Value="9"/>
+        </Style>
+
+        <Style x:Key="grafia" TargetType="Button">
+            <Setter Property="FontSize" Value="60"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderColor" Value="White"/>
+
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <Grid RowDefinitions="*,*"
+              ColumnDefinitions="*,*"
+              RowSpacing="0.1">
+
+            <ImageButton Grid.Row="0" Grid.Column="0" 
+             Source="detona.jpg" x:Name="detona"
+             Style="{StaticResource estilocomum}" Clicked="detona_Clicked"   
+            />
+
+            <ImageButton Grid.Row="0" Grid.Column="1" 
+             Source="ter.jpg" x:Name="ter"
+             Style="{StaticResource estilocomum}" Clicked="ter_Clicked" 
+            />
+            <ImageButton Grid.Row="1" Grid.Column="0" 
+             Source="tom.jpg" x:Name="velozes"
+             Style="{StaticResource estilocomum}" Clicked="velozes_Clicked" 
+            />
+            <ImageButton Grid.Row="1" Grid.Column="1" 
+             Source="toy.jpg" x:Name="toy"
+             Style="{StaticResource estilocomum}" Clicked="toy_Clicked"
+            />
+
+        </Grid>
+        <Grid RowDefinitions="*"
+      ColumnDefinitions="*"
+      RowSpacing="0.1">
+            <Button Grid.Row="0" Grid.Column="0" 
+              x:Name="voltar" Text="Voltar"
+             Style="{StaticResource grafia}" Clicked="voltar_Clicked"
+            />
+
+        </Grid>
+        
+        
+    </ContentPage.Content>
 </ContentPage>

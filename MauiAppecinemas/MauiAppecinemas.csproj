@@ -91,6 +91,9 @@
 	  <MauiXaml Update="Categorias\drama\drama.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Categorias\guerra\guerra.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Categorias\terror\terror.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -104,7 +107,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Resources\Images\animacao\" />
 	  <Folder Include="Resources\Images\aventura\" />
 	  <Folder Include="Resources\Images\comedia\" />
 	  <Folder Include="Resources\Images\documentario\" />

@@ -6,11 +6,7 @@ public partial class Mainaventura : ContentPage
 	{
 		InitializeComponent();
 	}
-    private void Arranhaceu_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
+   
     private void velozes_Clicked(object sender, EventArgs e)
     {
 
