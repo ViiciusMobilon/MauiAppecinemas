@@ -23,37 +23,37 @@ namespace MauiAppecinemas
 
         private void Comedia_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new comedia());
+            Navigation.PushAsync(new Comedia());
         }
 
         private void drama_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new drama());
+            Navigation.PushAsync(new Drama());
         }
 
         private void acao_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new acao());
+            Navigation.PushAsync(new Acao());
         }
 
         private void animacao_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new animacao());
+            Navigation.PushAsync(new Animacao());
         }
 
         private void terror_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new terror());
+            Navigation.PushAsync(new Terror());
         }
 
         private void documentario_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new documentario());
+            Navigation.PushAsync(new Documentario());
         }
 
         private void guerra_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Categorias.guerra.guerra());
+            Navigation.PushAsync(new Categorias.Guerra());
         }
     }
 }

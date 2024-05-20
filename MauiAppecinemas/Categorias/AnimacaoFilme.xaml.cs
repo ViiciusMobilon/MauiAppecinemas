@@ -1,8 +1,8 @@
 namespace MauiAppecinemas.Categorias;
 
-public partial class drama : ContentPage
+public partial class AnimacaoFilme : ContentPage
 {
-	public drama()
+	public AnimacaoFilme()
 	{
 		InitializeComponent();
 	}

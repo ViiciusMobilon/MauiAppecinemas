@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppecinemas.Categorias.acao"
-             Title="acao">
+             x:Class="MauiAppecinemas.Categorias.Acao"
+             >
     <ContentPage.Resources>
         <Style x:Key="estilocomum" TargetType="ImageButton" >
             <Setter Property="BackgroundColor" Value="Black"/>
@@ -38,7 +38,7 @@
             <ImageButton Grid.Row="1" Grid.Column="0"
                          
                          Source="ultimo.jpg" x:Name="ultimo"
-                         Style="{StaticResource estilocomum}" Clicked="ultimo_Clicked"
+                         Style="{StaticResource estilocomum}" Clicked="ultimo_Clicked_1"    
             />
             <ImageButton Grid.Row="1" Grid.Column="1"
                          Source="violenta.jpg" x:Name="violenta"

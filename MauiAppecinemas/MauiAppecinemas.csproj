@@ -56,14 +56,50 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\Images\ultimo.jpg" />
+	  <AndroidResource Remove="Resources\Images\aventura\**" />
+	  <AndroidResource Remove="Resources\Images\comedia\**" />
+	  <AndroidResource Remove="Resources\Images\documentario\**" />
+	  <AndroidResource Remove="Resources\Images\drama\**" />
+	  <AndroidResource Remove="Resources\Images\terror\**" />
+	  <Compile Remove="Resources\Images\aventura\**" />
+	  <Compile Remove="Resources\Images\comedia\**" />
+	  <Compile Remove="Resources\Images\documentario\**" />
+	  <Compile Remove="Resources\Images\drama\**" />
+	  <Compile Remove="Resources\Images\terror\**" />
+	  <EmbeddedResource Remove="Resources\Images\aventura\**" />
+	  <EmbeddedResource Remove="Resources\Images\comedia\**" />
+	  <EmbeddedResource Remove="Resources\Images\documentario\**" />
+	  <EmbeddedResource Remove="Resources\Images\drama\**" />
+	  <EmbeddedResource Remove="Resources\Images\terror\**" />
+	  <MauiCss Remove="Resources\Images\aventura\**" />
+	  <MauiCss Remove="Resources\Images\comedia\**" />
+	  <MauiCss Remove="Resources\Images\documentario\**" />
+	  <MauiCss Remove="Resources\Images\drama\**" />
+	  <MauiCss Remove="Resources\Images\terror\**" />
+	  <MauiImage Remove="Resources\Images\aventura\**" />
+	  <MauiImage Remove="Resources\Images\comedia\**" />
+	  <MauiImage Remove="Resources\Images\documentario\**" />
+	  <MauiImage Remove="Resources\Images\drama\**" />
+	  <MauiImage Remove="Resources\Images\terror\**" />
+	  <MauiXaml Remove="Resources\Images\aventura\**" />
+	  <MauiXaml Remove="Resources\Images\comedia\**" />
+	  <MauiXaml Remove="Resources\Images\documentario\**" />
+	  <MauiXaml Remove="Resources\Images\drama\**" />
+	  <MauiXaml Remove="Resources\Images\terror\**" />
+	  <None Remove="Resources\Images\aventura\**" />
+	  <None Remove="Resources\Images\comedia\**" />
+	  <None Remove="Resources\Images\documentario\**" />
+	  <None Remove="Resources\Images\drama\**" />
+	  <None Remove="Resources\Images\terror\**" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\velozes e furiosos.jpg" />
-	  <None Remove="Resources\Images\violenta.jpg" />
 	  <None Remove="Resources\raw\images.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiAsset Include="Resources\Images\acao\images.jpg" />
+	  <MauiAsset Include="Resources\Images\images.jpg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -73,45 +109,70 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="Categorias\AcaoFilme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Categorias\acao\acao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\animacao\animacao.xaml">
+	  <MauiXaml Update="Categorias\Animacao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\Aventura\Mainaventura.xaml">
+	  <MauiXaml Update="Categorias\AnimacaoFilme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\comedia\comedia.xaml">
+	  <MauiXaml Update="Categorias\ComediaFilme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\documentario\documentario.xaml">
+	  <MauiXaml Update="Categorias\DocumentarioFilme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\drama\drama.xaml">
+	  <MauiXaml Update="Categorias\Mainaventura.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\guerra\guerra.xaml">
+	  <MauiXaml Update="Categorias\Comedia.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="Categorias\terror\terror.xaml">
+	  <MauiXaml Update="Categorias\Documentario.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Drama.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Guerra.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Terror.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiImage Include="Resources\Images\acao\images.jpg" />
-	  <MauiImage Include="Resources\Images\acao\ultimo.jpg" />
-	  <MauiImage Include="Resources\Images\acao\velozes.jpg" />
-	  <MauiImage Include="Resources\Images\acao\violenta.jpg" />
+	  <None Include="Categorias\acao.xaml" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="Resources\Images\aventura\" />
-	  <Folder Include="Resources\Images\comedia\" />
-	  <Folder Include="Resources\Images\documentario\" />
-	  <Folder Include="Resources\Images\drama\" />
-	  <Folder Include="Resources\Images\terror\" />
+	  <Compile Update="Categorias\Acao.xaml.cs">
+	    <DependentUpon>Acao.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Categorias\Animacao.xaml.cs">
+	    <DependentUpon>Animacao.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Categorias\Comedia.xaml.cs">
+	    <DependentUpon>Comedia.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Categorias\Documentario.xaml.cs">
+	    <DependentUpon>Documentario.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Categorias\Drama.xaml.cs">
+	    <DependentUpon>Drama.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Categorias\Guerra.xaml.cs">
+	    <DependentUpon>Guerra.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="Categorias\Terror.xaml.cs">
+	    <DependentUpon>Terror.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 </Project>

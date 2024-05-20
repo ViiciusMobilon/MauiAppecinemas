@@ -1,8 +1,8 @@
 namespace MauiAppecinemas.Categorias;
 
-public partial class acao : ContentPage
+public partial class Acao : ContentPage
 {
-	public acao()
+	public Acao()
 	{
 		InitializeComponent();
 	}
@@ -40,6 +40,16 @@ public partial class acao : ContentPage
     }
 
     private void Arranhaceu_Clicked_3(object sender, EventArgs e)
+    {
+
+    }
+
+    private void ultimo_Clicked_1(object sender, EventArgs e)
+    {
+
+    }
+
+    private void violenta_Clicked(object sender, EventArgs e)
     {
 
     }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppecinemas.Categorias.animacao"
-             Title="animacao">
+             x:Class="MauiAppecinemas.Categorias.Terror"
+             >
     <ContentPage.Resources>
         <Style x:Key="estilocomum" TargetType="ImageButton" >
             <Setter Property="Background" Value="Black"/>
@@ -12,19 +12,20 @@
         </Style>
 
         <Style x:Key="grafia" TargetType="Button">
-            <Setter Property="FontSize" Value="60"/>
+            <Setter Property="FontSize" Value="30"/>
+            <Setter Property="TextColor" Value="black"/>
             <Setter Property="Background" Value="White"/>
             <Setter Property="BorderColor" Value="White"/>
 
         </Style>
     </ContentPage.Resources>
     <ContentPage.Content>
-        <Grid RowDefinitions="*,*"
+        <Grid RowDefinitions="*,*,50"
               ColumnDefinitions="*,*"
               RowSpacing="0.1">
 
             <ImageButton Grid.Row="0" Grid.Column="0" 
-             Source="detona.jpg" x:Name="detona"
+             Source="detona.jpg" x:Name="deton"
              Style="{StaticResource estilocomum}" Clicked="detona_Clicked"   
             />
 
@@ -33,25 +34,20 @@
              Style="{StaticResource estilocomum}" Clicked="ter_Clicked" 
             />
             <ImageButton Grid.Row="1" Grid.Column="0" 
-             Source="tom.jpg" x:Name="velozes"
-             Style="{StaticResource estilocomum}" Clicked="velozes_Clicked" 
+             Source="tom.jpg" x:Name="tom"
+             Style="{StaticResource estilocomum}" Clicked="tom_Clicked" 
             />
             <ImageButton Grid.Row="1" Grid.Column="1" 
              Source="toy.jpg" x:Name="toy"
              Style="{StaticResource estilocomum}" Clicked="toy_Clicked"
             />
-
-        </Grid>
-        <Grid RowDefinitions="*"
-      ColumnDefinitions="*"
-      RowSpacing="0.1">
-            <Button Grid.Row="0" Grid.Column="0" 
+            <Button Grid.Row="2" Grid.Column="0" 
               x:Name="voltar" Text="Voltar"
-             Style="{StaticResource grafia}" Clicked="voltar_Clicked"
+             Style="{StaticResource grafia}" Clicked="voltar_Clicked"   
             />
-
         </Grid>
-        
-        
+
+
+
     </ContentPage.Content>
 </ContentPage>

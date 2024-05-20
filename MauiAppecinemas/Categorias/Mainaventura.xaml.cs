@@ -24,6 +24,31 @@ public partial class Mainaventura : ContentPage
 
     private void voltar_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new MainPage());
+      
+    }
+
+    private void detona_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void ter_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void tom_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void toy_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void voltar_Clicked_1(object sender, EventArgs e)
+    {
+  Navigation.PushAsync(new MainPage());
     }
 }
