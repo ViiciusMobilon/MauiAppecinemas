@@ -7,48 +7,35 @@ public partial class Mainaventura : ContentPage
 		InitializeComponent();
 	}
    
-    private void velozes_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void ultimo_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void violenta_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void voltar_Clicked(object sender, EventArgs e)
-    {
-      
-    }
-
-    private void detona_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void ter_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void tom_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void toy_Clicked(object sender, EventArgs e)
-    {
-
-    }
+    
 
     private void voltar_Clicked_1(object sender, EventArgs e)
     {
   Navigation.PushAsync(new MainPage());
+    }
+
+    private void aventura2_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void aventura2_Clicked_1(object sender, EventArgs e)
+    {
+
+    }
+
+    private void aventura1_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void aventura3_Clicked(object sender, EventArgs e)
+    {
+
+    }
+
+    private void aventura4_Clicked(object sender, EventArgs e)
+    {
+
     }
 }

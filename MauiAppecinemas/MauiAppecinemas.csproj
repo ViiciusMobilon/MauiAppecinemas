@@ -94,6 +94,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\aventura1.jpg" />
+	  <None Remove="Resources\Images\aventura2.jpg" />
+	  <None Remove="Resources\Images\aventura3.jpg" />
+	  <None Remove="Resources\Images\aventura4.jpg" />
+	  <None Remove="Resources\Images\brancas.jpg" />
+	  <None Remove="Resources\Images\debi.jpg" />
+	  <None Remove="Resources\Images\panico.jpg" />
+	  <None Remove="Resources\Images\professor.jpg" />
 	  <None Remove="Resources\Images\velozes e furiosos.jpg" />
 	  <None Remove="Resources\raw\images.jpg" />
 	</ItemGroup>
@@ -121,10 +129,19 @@
 	  <MauiXaml Update="Categorias\AnimacaoFilme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Categorias\aventurafilme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Categorias\ComediaFilme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categorias\DocumentarioFilme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Dramafilme.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Guerrafilme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categorias\Mainaventura.xaml">
@@ -143,6 +160,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categorias\Terror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Terrorfilme.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
