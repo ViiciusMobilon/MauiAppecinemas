@@ -8,7 +8,7 @@
             <Setter Property="Background" Value="Black"/>
             <Setter Property="BorderColor" Value="White"/>
             <Setter Property="CornerRadius" Value="20"/>
-            <Setter Property="BorderWidth" Value="9"/>
+            <Setter Property="BorderWidth" Value="3"/>
         </Style>
 
         <Style x:Key="grafia" TargetType="Button">

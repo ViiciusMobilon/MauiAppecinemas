@@ -53,7 +53,7 @@ namespace MauiAppecinemas
 
         private void guerra_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Categorias.Guerra());
+            Navigation.PushAsync(new Guerra());
         }
     }
 }

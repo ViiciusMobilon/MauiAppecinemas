@@ -16,7 +16,7 @@ public partial class Acao : ContentPage
 
     private void velozes_Clicked(object sender, EventArgs e)
     {
-        Navigation.PushAsync(new AcaoFilme());
+        Navigation.PushAsync(new filmesac.Velozesefuriosos());
 
     }
 
