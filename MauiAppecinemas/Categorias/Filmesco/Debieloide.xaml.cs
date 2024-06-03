@@ -6,4 +6,9 @@ public partial class Debieloide : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    private void voltar_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Comedia());
+    }
 }
