@@ -127,6 +127,9 @@
 	  <MauiXaml Update="Categorias\Animacao.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Categorias\filmesac\Acao2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Categorias\filmesac\Velozesefuriosos.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

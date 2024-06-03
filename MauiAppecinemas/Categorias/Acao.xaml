@@ -2,12 +2,11 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiAppecinemas.Categorias.Acao"
-             >
+             BackgroundColor="White">
     <ContentPage.Resources>
         <Style x:Key="estilocomum" TargetType="ImageButton" >
-            <Setter Property="BackgroundColor" Value="Black"/>
-            <Setter Property="BorderColor" Value="White"/>
-            <Setter Property="BorderWidth" Value="9"/>
+            <Setter Property="BorderColor" Value="Black"/>
+            <Setter Property="BorderWidth" Value="3"/>
             <Setter Property="CornerRadius" Value="20"/>
 
         </Style>
@@ -15,6 +14,11 @@
             <Setter Property="FontSize" Value="20"/>
             <Setter Property="BackgroundColor" Value="White"/>
             <Setter Property="BorderColor" Value="White"/>
+        </Style>
+        <Style TargetType="Button" x:Key="botao" >
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="BackgroundColor" Value="Black"/>
+            <Setter Property="TextColor" Value="White"/>
         </Style>
     </ContentPage.Resources>
 
@@ -33,19 +37,19 @@
             />
             <ImageButton Grid.Row="0" Grid.Column="1" 
                      Source="images.jpg" x:Name="Arranhaceu"
-                     Style="{StaticResource estilocomum}" Clicked="Arranhaceu_Clicked_3" 
+                     Style="{StaticResource estilocomum}" Clicked="Arranhaceu_Clicked_1" 
             />
             <ImageButton Grid.Row="1" Grid.Column="0"
                          
                          Source="ultimo.jpg" x:Name="ultimo"
-                         Style="{StaticResource estilocomum}" Clicked="ultimo_Clicked_1"    
+                         Style="{StaticResource estilocomum}" Clicked="ultimo_Clicked"    
             />
             <ImageButton Grid.Row="1" Grid.Column="1"
                          Source="violenta.jpg" x:Name="violenta"
                          Style="{StaticResource estilocomum}" Clicked="violenta_Clicked"
             />
             <Button Grid.Row="2" Grid.Column="0" 
-                Style="{StaticResource escrita}" x:Name="voltar"
+                Style="{StaticResource botao}" x:Name="voltar"
                 Text="voltar" Clicked="voltar_Clicked" />
         </Grid>
 

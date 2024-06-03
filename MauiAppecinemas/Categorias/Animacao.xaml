@@ -5,10 +5,9 @@
              >
     <ContentPage.Resources>
         <Style x:Key="estilocomum" TargetType="ImageButton" >
-            <Setter Property="Background" Value="Black"/>
-            <Setter Property="BorderColor" Value="White"/>
+            <Setter Property="BorderColor" Value="Black"/>
+            <Setter Property="BorderWidth" Value="3"/>
             <Setter Property="CornerRadius" Value="20"/>
-            <Setter Property="BorderWidth" Value="9"/>
         </Style>
 
         <Style x:Key="grafia" TargetType="Button">
@@ -17,6 +16,11 @@
             <Setter Property="Background" Value="White"/>
             <Setter Property="BorderColor" Value="White"/>
 
+        </Style>
+        <Style TargetType="Button" x:Key="botao" >
+            <Setter Property="FontSize" Value="10"/>
+            <Setter Property="BackgroundColor" Value="Black"/>
+            <Setter Property="TextColor" Value="White"/>
         </Style>
     </ContentPage.Resources>
     <ContentPage.Content>
@@ -43,7 +47,7 @@
      />
                 <Button Grid.Row="2" Grid.Column="0" 
        x:Name="voltar" Text="Voltar"
-      Style="{StaticResource grafia}" Clicked="voltar_Clicked"
+      Style="{StaticResource botao}" Clicked="voltar_Clicked"
      />
     </Grid>        
 

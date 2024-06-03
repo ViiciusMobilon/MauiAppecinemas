@@ -7,4 +7,10 @@ public partial class Velozesefuriosos : ContentPage
 		InitializeComponent();
 
 	}
+
+
+    private void voltar_Clicked_1(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Acao());
+    }
 }
