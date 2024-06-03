@@ -94,6 +94,14 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <Compile Remove="Categorias\filmesac\Ataoultimo.xaml.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Remove="Categorias\filmesac\Ataoultimo.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
 	  <None Remove="Resources\Images\aventura1.jpg" />
 	  <None Remove="Resources\Images\aventura2.jpg" />
 	  <None Remove="Resources\Images\aventura3.jpg" />
@@ -128,6 +136,12 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categorias\filmesac\Acao2.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\filmesac\Acaoviolenta.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\filmesac\ultimo.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categorias\filmesac\Velozesefuriosos.xaml">

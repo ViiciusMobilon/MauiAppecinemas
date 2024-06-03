@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppecinemas.Categorias.filmesac.Acao2"
-             Title="Arranha-ceu">
+             x:Class="MauiAppecinemas.Categorias.filmesac.Acaoviolenta"
+             Title="Acaoviolenta">
     <ContentPage.Resources>
         <Style x:Key="titulo" TargetType="Label">
             <Setter Property="FontSize" Value="25"/>
@@ -33,13 +33,13 @@
                     <Label Text="Data de Lançamento"
                         Style="{StaticResource titulo}" />
 
-                    <Label Text="12 de julho de 2018"
+                    <Label Text="fevereiro 2013"
                         Style="{StaticResource escrita}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" 
                     Style="{StaticResource titulo}" />
-                    <Label Text="Rawson Marshall Thurber" 
+                    <Label Text="Lauro Chartrand" 
                     Style="{StaticResource escrita}" />
                 </StackLayout>
                 <Button Grid.Row="1" Grid.Column="0" 

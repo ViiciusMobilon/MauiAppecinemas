@@ -27,11 +27,11 @@ public partial class Acao : ContentPage
 
     private void ultimo_Clicked(object sender, EventArgs e)
     {
-
+        Navigation.PushAsync(new filmesac.ultimo());
     }
 
     private void violenta_Clicked(object sender, EventArgs e)
     {
-
+        Navigation.PushAsync(new filmesac.Acaoviolenta());
     }
 }
