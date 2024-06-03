@@ -7,28 +7,30 @@ public partial class Drama : ContentPage
 		InitializeComponent();
 	}
 
-    private void detona_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void ter_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void tom_Clicked(object sender, EventArgs e)
-    {
-
-    }
-
-    private void toy_Clicked(object sender, EventArgs e)
-    {
-
-    }
+    
 
     private void voltar_Clicked(object sender, EventArgs e)
     {
         Navigation.PushAsync(new MainPage());
+    }
+
+    private void milvesez_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Filmesdr.Milvesez());
+    }
+
+    private void umlugar_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Filmesdr.Umlugar());
+    }
+
+    private void tempo_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Filmesdr.Tempo());
+    }
+
+    private void seguindo_Clicked(object sender, EventArgs e)
+    {
+        Navigation.PushAsync(new Filmesdr.Seguindo());
     }
 }

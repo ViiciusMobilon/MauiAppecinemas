@@ -29,21 +29,21 @@
               RowSpacing="0.1">
 
             <ImageButton Grid.Row="0" Grid.Column="0" 
-             Source="drama1.jpg" x:Name="detona"
-             Style="{StaticResource estilocomum}" Clicked="detona_Clicked"     
+             Source="drama1.jpg" x:Name="milvesez"
+             Style="{StaticResource estilocomum}" Clicked="milvesez_Clicked"     
             />
 
             <ImageButton Grid.Row="0" Grid.Column="1" 
-             Source="drama2.jpg" x:Name="ter"
-             Style="{StaticResource estilocomum}" Clicked="ter_Clicked" 
+             Source="drama2.jpg" x:Name="umlugar"
+             Style="{StaticResource estilocomum}" Clicked="umlugar_Clicked" 
             />
             <ImageButton Grid.Row="1" Grid.Column="0" 
-             Source="drama3.jpg" x:Name="tom"
-             Style="{StaticResource estilocomum}" Clicked="tom_Clicked" 
+             Source="drama3.jpg" x:Name="tempo"
+             Style="{StaticResource estilocomum}" Clicked="tempo_Clicked" 
             />
             <ImageButton Grid.Row="1" Grid.Column="1" 
-             Source="drama4.jpg" x:Name="toy"
-             Style="{StaticResource estilocomum}" Clicked="toy_Clicked"
+             Source="drama4.jpg" x:Name="seguindo"
+             Style="{StaticResource estilocomum}" Clicked="seguindo_Clicked"
             />
             <Button Grid.Row="2" Grid.Column="0" 
               x:Name="voltar" Text="Voltar"
