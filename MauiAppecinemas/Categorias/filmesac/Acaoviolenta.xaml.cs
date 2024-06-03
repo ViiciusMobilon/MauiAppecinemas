@@ -9,6 +9,6 @@ public partial class Acaoviolenta : ContentPage
 
     private void voltar_Clicked(object sender, EventArgs e)
     {
-
+        Navigation.PushAsync(new Acao());
     }
 }

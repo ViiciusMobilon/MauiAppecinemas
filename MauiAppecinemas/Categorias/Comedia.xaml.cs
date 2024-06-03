@@ -16,21 +16,21 @@ public partial class Comedia : ContentPage
 
     private void panico_Clicked(object sender, EventArgs e)
     {
-
+        Navigation.PushAsync(new Filmesco.Todo());
     }
 
     private void brancas_Clicked(object sender, EventArgs e)
     {
-
+        Navigation.PushAsync(new Filmesco.Asbranquelas());
     }
 
     private void debi_Clicked(object sender, EventArgs e)
     {
-
+        Navigation.PushAsync(new Filmesco.Debieloide());
     }
 
     private void prof_Clicked(object sender, EventArgs e)
     {
-
+        Navigation.PushAsync(new Filmesco.Professor());
     }
 }

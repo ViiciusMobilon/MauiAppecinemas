@@ -27,7 +27,7 @@
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
-                Source="images.jpg" Aspect="AspectFit" HeightRequest="300" />
+                Source="violenta.jpg" Aspect="AspectFit" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" 
                       Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
