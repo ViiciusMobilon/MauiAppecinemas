@@ -56,21 +56,29 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <AndroidResource Remove="Categorias\NovaPasta1\**" />
+	  <AndroidResource Remove="Categorias\NovaPasta\**" />
 	  <AndroidResource Remove="Resources\Images\aventura\**" />
 	  <AndroidResource Remove="Resources\Images\comedia\**" />
 	  <AndroidResource Remove="Resources\Images\documentario\**" />
 	  <AndroidResource Remove="Resources\Images\drama\**" />
 	  <AndroidResource Remove="Resources\Images\terror\**" />
+	  <Compile Remove="Categorias\NovaPasta1\**" />
+	  <Compile Remove="Categorias\NovaPasta\**" />
 	  <Compile Remove="Resources\Images\aventura\**" />
 	  <Compile Remove="Resources\Images\comedia\**" />
 	  <Compile Remove="Resources\Images\documentario\**" />
 	  <Compile Remove="Resources\Images\drama\**" />
 	  <Compile Remove="Resources\Images\terror\**" />
+	  <EmbeddedResource Remove="Categorias\NovaPasta1\**" />
+	  <EmbeddedResource Remove="Categorias\NovaPasta\**" />
 	  <EmbeddedResource Remove="Resources\Images\aventura\**" />
 	  <EmbeddedResource Remove="Resources\Images\comedia\**" />
 	  <EmbeddedResource Remove="Resources\Images\documentario\**" />
 	  <EmbeddedResource Remove="Resources\Images\drama\**" />
 	  <EmbeddedResource Remove="Resources\Images\terror\**" />
+	  <MauiCss Remove="Categorias\NovaPasta1\**" />
+	  <MauiCss Remove="Categorias\NovaPasta\**" />
 	  <MauiCss Remove="Resources\Images\aventura\**" />
 	  <MauiCss Remove="Resources\Images\comedia\**" />
 	  <MauiCss Remove="Resources\Images\documentario\**" />
@@ -81,11 +89,15 @@
 	  <MauiImage Remove="Resources\Images\documentario\**" />
 	  <MauiImage Remove="Resources\Images\drama\**" />
 	  <MauiImage Remove="Resources\Images\terror\**" />
+	  <MauiXaml Remove="Categorias\NovaPasta1\**" />
+	  <MauiXaml Remove="Categorias\NovaPasta\**" />
 	  <MauiXaml Remove="Resources\Images\aventura\**" />
 	  <MauiXaml Remove="Resources\Images\comedia\**" />
 	  <MauiXaml Remove="Resources\Images\documentario\**" />
 	  <MauiXaml Remove="Resources\Images\drama\**" />
 	  <MauiXaml Remove="Resources\Images\terror\**" />
+	  <None Remove="Categorias\NovaPasta1\**" />
+	  <None Remove="Categorias\NovaPasta\**" />
 	  <None Remove="Resources\Images\aventura\**" />
 	  <None Remove="Resources\Images\comedia\**" />
 	  <None Remove="Resources\Images\documentario\**" />
@@ -95,10 +107,14 @@
 
 	<ItemGroup>
 	  <Compile Remove="Categorias\filmesac\Ataoultimo.xaml.cs" />
+	  <Compile Remove="Categorias\Filmesav\annabelle.xaml.cs" />
+	  <Compile Remove="Categorias\Filmesgu\1917.xaml.cs" />
 	</ItemGroup>
 
 	<ItemGroup>
 	  <MauiXaml Remove="Categorias\filmesac\Ataoultimo.xaml" />
+	  <MauiXaml Remove="Categorias\Filmesav\annabelle.xaml" />
+	  <MauiXaml Remove="Categorias\Filmesgu\1917.xaml" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -159,6 +175,18 @@
 	  <MauiXaml Update="Categorias\Filmesan\Toy.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Filmeste\Annabelle.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Filmeste\Childs.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Filmeste\Noitedoterror.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Filmeste\Worldz.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="Categorias\Filmesco\Asbranquelas.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -193,6 +221,18 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categorias\Filmesdr\Umlugar.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Filmesgu\Ateoultimohomem.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Filmesgu\Bastardosgloriosos.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Filmesgu\Coracaodeferro.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="Categorias\Filmesgu\Mil.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="Categorias\Mainaventura.xaml">
@@ -241,6 +281,10 @@
 	  <Compile Update="Categorias\Terror.xaml.cs">
 	    <DependentUpon>Terror.xaml</DependentUpon>
 	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Categorias\Filmesav\" />
 	</ItemGroup>
 
 </Project>

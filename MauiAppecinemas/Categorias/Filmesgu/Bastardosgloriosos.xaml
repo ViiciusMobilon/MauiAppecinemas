@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppecinemas.Categorias.Filmesdr.Tempo"
-             Title="Tempo">
+             x:Class="MauiAppecinemas.Categorias.Filmesgu.Bastardosgloriosos"
+             Title="Bastardosgloriosos">
     <ContentPage.Resources>
         <Style x:Key="titulo" TargetType="Label">
             <Setter Property="FontSize" Value="25"/>
@@ -22,24 +22,24 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-        Source="https://www.youtube.com/embed/zxnVGnQKM4E?si=fqKtuS6GrJnU0Zs2" />
+        Source="https://www.youtube.com/embed/jzVBxHJiUn4?si=3UOE-JgvjHvUKg_1" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
-                   Source="drama3.jpg" Aspect="AspectFit" HeightRequest="300" />
+                   Source="guerra4.jpg" Aspect="AspectFit" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" 
                          Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
                            Style="{StaticResource titulo}" />
 
-                    <Label Text="22 de julho de 2021"
+                    <Label Text="20 de maio de 2009"
                            Style="{StaticResource escrita}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" 
                        Style="{StaticResource titulo}" />
-                    <Label Text="M. Night Shyamalan" 
+                    <Label Text="Quentin Tarantino " 
                        Style="{StaticResource escrita}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" 

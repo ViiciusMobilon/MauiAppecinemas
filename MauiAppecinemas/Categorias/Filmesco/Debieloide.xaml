@@ -22,12 +22,12 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-     Source="https://www.youtube.com/watch?v=MsoG4LnjhL0" />
+     Source="https://www.youtube.com/embed/4qDysqSxG64?si=Nplt8bihKNtM4ke5" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
-                Source="detona.jpg" Aspect="AspectFit" HeightRequest="300" />
+                Source="debi.jpg" Aspect="AspectFit" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" 
                       Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"

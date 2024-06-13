@@ -22,7 +22,7 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-        Source="https://www.youtube.com/watch?v=175eQRL4uag" />
+        Source="https://www.youtube.com/embed/uWARN8MVC2I?si=Js5B27_qbTzzYFSK" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">

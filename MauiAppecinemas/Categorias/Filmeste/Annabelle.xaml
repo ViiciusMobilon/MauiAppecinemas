@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiAppecinemas.Categorias.Filmesdr.Tempo"
-             Title="Tempo">
+             x:Class="MauiAppecinemas.Categorias.Filmeste.Annabelle"
+             Title="Annabelle">
     <ContentPage.Resources>
         <Style x:Key="titulo" TargetType="Label">
             <Setter Property="FontSize" Value="25"/>
@@ -22,24 +22,24 @@
     <Grid RowDefinitions="*, *" ColumnDefinitions="*">
 
         <WebView Grid.Column="0" Grid.Row="0" 
-        Source="https://www.youtube.com/embed/zxnVGnQKM4E?si=fqKtuS6GrJnU0Zs2" />
+        Source="https://www.youtube.com/embed/4s4UCxCv_OE?si=RyTK2ErakpJD6iJ-" />
 
         <ScrollView Grid.Row="1" Grid.Column="0">
             <Grid RowDefinitions="*, *" ColumnDefinitions="*, *">
                 <Image Grid.Column="0" Grid.Row="0" 
-                   Source="drama3.jpg" Aspect="AspectFit" HeightRequest="300" />
+                   Source="terror1.jpg" Aspect="AspectFit" HeightRequest="300" />
                 <StackLayout VerticalOptions="CenterAndExpand" 
                          Grid.Column="1" Grid.Row="0">
                     <Label Text="Data de Lançamento"
                            Style="{StaticResource titulo}" />
 
-                    <Label Text="22 de julho de 2021"
+                    <Label Text="9 de outubro de 2014"
                            Style="{StaticResource escrita}" />
 
 
                     <Label Text="Direção" Margin="0, 20, 0, 0" 
                        Style="{StaticResource titulo}" />
-                    <Label Text="M. Night Shyamalan" 
+                    <Label Text="John R. Leonetti" 
                        Style="{StaticResource escrita}" />
                 </StackLayout>
                 <StackLayout Grid.Column="0" Grid.Row="1" 
@@ -47,7 +47,7 @@
                 </StackLayout>
                 <Button Grid.Row="1" Grid.Column="0" 
                         x:Name="voltar" Text="Voltar"
-                        Style="{StaticResource botao}" Clicked="voltar_Clicked"
+                        Style="{StaticResource botao}" Clicked="voltar_Clicked" 
 />
             </Grid>
         </ScrollView>
